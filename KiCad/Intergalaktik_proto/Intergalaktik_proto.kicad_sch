@@ -1,5 +1,57 @@
-(kicad_sch (version 20230121) (generator eeschema)
-  (paper "A4")
-  (lib_symbols)
-  (symbol_instances)
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "e126e6f4-6969-4eba-ac71-5f2def4835ae")
+	(paper "A4")
+	(title_block
+		(title "${project_name} ${project_version}")
+		(date "2025-04-15")
+		(rev "${project_version}")
+		(company "${project_creator}")
+		(comment 1 "${project_license}")
+	)
+	(lib_symbols)
+	(rectangle
+		(start 73.66 16.51)
+		(end 128.27 30.48)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 133 177 255 1)
+		)
+		(uuid 5b09e8de-6ef3-4ee3-9aa5-1158ca48a44e)
+	)
+	(text "${project_creator}\nLicense: ${project_license}\nYear: ${project_year}"
+		(exclude_from_sim no)
+		(at 75.438 18.034 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+			(justify left top)
+		)
+		(uuid "bf0d68b7-3464-4ec2-a1fa-fd513b1ba334")
+	)
+	(text "${project_name}"
+		(exclude_from_sim no)
+		(at 40.386 20.066 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+				(thickness 0.762)
+				(bold yes)
+			)
+		)
+		(uuid "c16ff956-00ea-4b23-975f-1fc993ec879b")
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
 )
